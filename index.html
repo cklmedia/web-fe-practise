@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+  	<title>HELE</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $("#page_title").click(function(){
+      alert("aaaa");
+    });
+    });
+  </script>
+  <body>
+  	<!-- 导航条 -->
+  	<div id="page_title">
+      <div id="title_middle">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid" style="margin-top: 15px;padding: 0;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">HELE</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="title_active"><a href="#">首页</a></li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">健康中心</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+  	  
+  	</div>
+
+  	<!-- 网页内容 -->
+  	<div id="page_big_boby">
+  	  <!-- 左边菜单栏 -->
+  	  <div id="left_boby">
+        <div id="member_pic">
+          <a href="#"><img src="img/member.jpg" width="180" height="180"></a>
+          <p><a href="#">柴凯龙</a></p>
+        </div>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  健康统计
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li><a href="">血压统计</a></li>
+                  <li><a href="">糖尿统计</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  账号管理
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li><a href="">个人信息</a></li>
+                  <li><a href="">修改密码</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  健康建议
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li><a href="">健康师</a></li>
+                  <li><a href="">健康小知识</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  	  </div>
+
+  	  <!-- 右边菜单栏 -->
+  	  <div id="right_boby">
+        <div class="right_top">
+          <div class="top_pic">
+            <ul>
+              <li><a href="#"><img src="img/png.png"></a></li>
+              <li><a href="#"><img src="img/png-1.png"></a></li>
+              <li><a href="#"><img src="img/png-2.png"></a></li>
+            </ul>
+          </div>
+          <div class="top_select">
+            <div class="btn-group">
+              <button type="button" class="btn btn-success">时间调整</button>
+              <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">一周</a></li>
+                <li><a href="#">一个月</a></li>
+                <li><a href="#">三个月</a></li>
+                <li><a href="#">半年</a></li>
+                <li><a href="#">一年</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="clr"></div>
+        </div>
+  	  </div>
+      <div class="clr"></div>
+  	</div>
+  	<!-- 网页底部 -->
+  	<div id="page_bottom">
+      <p>cccccc</p>
+  	</div>
+  </body>
+
+</html>

@@ -1,0 +1,28 @@
+body{margin: 0;padding: 0;background-color: rgb(244, 250, 245);}
+.clr{clear: both;}
+#page_title{height: 80px;background-color: green;}
+#title_middle{width: 65%;margin: auto;}
+#title_middle .navbar-default{height: 80px;background-color: green;border: 0px;}
+#title_middle a{color: white;font-size: 20px;}
+.title_active{background-color: rgb(49, 142, 75);opacity:50;}
+#page_big_boby{width: 65%;margin: auto;}
+#page_big_boby #left_boby{width: 20%;float: left;}
+#page_big_boby #right_boby{width: 75%;float: right;background-color: white;}
+#page_big_boby #left_boby #member_pic{margin-top:60px;}
+#page_big_boby #left_boby #member_pic p a{display: block;margin-top:10px; border-bottom: 2px solid gray;padding-bottom: 10px;}
+#page_big_boby #left_boby #member_pic p a{color: green;font-size: 20px;}
+#left_boby ul{padding: 0;}
+#left_boby ul li{list-style-type: none;}
+#left_boby ul li + li{border-top:1px solid gray;}
+#left_boby ul li a{display: block;padding: 3px;text-decoration: none; color: green;font-size: 15px;}
+#left_boby ul li a:hover{background-color: rgb(49, 142, 75);opacity:0.5;color: white;}
+#left_boby h4 a{display: block;text-decoration: none;}
+#right_boby .right_top{margin-top:25px;}
+#right_boby .top_pic{float: left;margin-left: 20px;}
+#right_boby .top_select{float: right;}
+#right_boby .top_pic ul{overflow: hidden;background-color: rgb(244, 241, 241);padding: 15px 25px;}
+#right_boby .top_pic li{list-style-type: none;float: left;}
+#right_boby .top_pic li + li {border-left: 1px solid gray;}
+#right_boby .top_pic li a{display: block;padding: 0 16px;text-decoration: none;}
+#right_boby .top_select{margin: 20px 20px 0 0;}
+#page_bottom{height: 200px;background-color: green;}

@@ -1,0 +1,18 @@
+*{margin: 0;padding: 0;}
+body{background-color: #ececec;}
+li{list-style-type: none;}
+ul{padding: 0;}
+.left_nav li{display: list-item;}
+.active{font-weight: 700;background-color: #dfdfdf !important;}
+i.toggle-icon{display: inline-block;font-size: 14px;width: 10px;position: absolute;right: 10px;top: 7px;text-shadow: none;}
+a:hover{text-decoration: none;}
+.left_nav a{display: block;position: relative;padding: 8px 0 8px 15px;color: #555;background-color: #ececec;border-top: 1px solid #dfdfdf;}
+.top_nav{width: 100%;min-width: 500px;height: 30px;background-color: #555 !important;color: white;}
+.left_nav_change_width i{width: 20px;height: 20px;border-radius: 10px;border: 1px solid #A2A2A2;padding: 3px 3px 3px 1px;font-size: 14px;color: #A2A2A2;position: relative;
+top: 12px;background-color:#ececec;}
+.left_nav_change_width {border-bottom: 1px solid #A2A2A2;text-align: center;}
+.small_left_nav{position: absolute;width: 150px;left: 45px;z-index: 1180;}
+.mian_content{min-width:600px;width:80%;background-color: #f1f1f1;float:left;padding:20px;}
+.left_nav_box{width:20%;float:left;}
+.flooter{background-color: #555;color: white;}
+.left_nav_first_li ul li a:hover{background-color: #ccc;};
