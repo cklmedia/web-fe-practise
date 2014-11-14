@@ -28,7 +28,7 @@ $(document).ready(function(){
 				$(".title").children("i").text("+");
 				$(".title_name,.toggle-icon").hide();
 				$(".left_nav_box").css("width","45px");
-				$(".mian_content").css("width",$(window).width()-45+"px");
+				$(".mian_content").css("width",$(window).width()-45 + "px");
 				$(this).children("ul").addClass("small_left_nav");
 				$(this).children("ul").css("top",li_top+"px");
 			}else{
@@ -55,6 +55,9 @@ $(document).ready(function(){
 			change_second_nav_style("big");
 		}
 	});
-
-	
+	$(window).resize(function(){
+		if($(".left_nav_box").width() == 45){
+			$(".mian_content").css("width",$(window).width()-45 + "px");
+		}
+	});
 });
