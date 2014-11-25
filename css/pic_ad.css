@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+.pic_ad_box{width: 250px;height: 250px;margin: auto;background-color: gray;}
+.pic_ad_box td{width: 50px;height: 250px;opacity: 0.5;}
+.pic_ad_box td img{width: 100%;height: 100%;}
+.show_ad{
+	transition: width 1s;
+	-moz-transition: width 1s;	
+	/* Firefox 4 */
+	-webkit-transition: width 1s;	
+	/* Safari 和 Chrome */
+	-o-transition: width 1s;
+	width: 100px !important;
+	opacity: 1!important;
+}
